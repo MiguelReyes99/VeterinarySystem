@@ -1,0 +1,99 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.modal {
+    background: #1e2124;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 25%;
+    width: 100%;
+}
+
+.modal-content {
+    background: #1e2124;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    min-width: 300px;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-success {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+.modal h3 {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.modal input {
+    width: 100%;
+    max-width: -webkit-fill-available;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button.danger {
+    background: #e74c3c;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+select {
+    width: 100%;
+    max-width: -webkit-fill-available;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+}

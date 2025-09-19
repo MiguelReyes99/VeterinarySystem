@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border: 1px solid whitesmoke;
+    background: #424549;
+    border-radius: 10px;
+}
+
+td {
+    padding: 8px;
+    height: auto;
+    border-top: solid whitesmoke;
+    text-align: left;
+}
+
+th {
+    background: #23272a;
+}
+
+.button-action {
+    background-color: #1e2124;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    margin: 2rem auto;
+}
+
+.field-actions {
+    display: flex;
+    justify-content: space-evenly;
+}
